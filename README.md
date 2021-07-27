@@ -1,1 +1,0 @@
-# doshiroto.github.io
