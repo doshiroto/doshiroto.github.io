@@ -1,0 +1,20 @@
+<head>
+    <title>投稿一覧</title>
+</head>
+
+<body>
+<p class="top-message">投稿したらみてね</p>
+
+    
+    <% @posts.each do |post| %>
+    
+        <div class="post-index">
+            <%= link_to(post.content,"/home/#{post.id}") %>
+            <!-- <%= post.content %> -->
+        </div>
+    
+    <% end %>
+    
+
+
+</body>

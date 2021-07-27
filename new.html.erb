@@ -1,0 +1,17 @@
+<head>
+    <title>新規投稿</title>
+</head>
+
+<body>
+
+<p class="top-message">投稿してね</p>
+
+<%= form_tag("/home/create") do %>
+
+<div class="form">
+    <textarea name="content"></textarea>
+    <input type="submit" value="投稿">
+</div>
+
+<% end %>
+</body>

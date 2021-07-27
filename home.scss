@@ -1,0 +1,63 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.header {
+    color: #000000;
+    font-size: 20px;
+    font-family:"serif";
+    width:800px;
+    height: 40px;
+    background-color:#82cddd ;
+}
+
+.top-message{
+    font-family:"Wawati SC";
+    font-size: 20px;
+}
+.footer{
+    color:black;
+    font-size: 15px;
+    font-family:"serif";
+    width:800px;
+    height: 40px;  
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.footer-link{
+    width:800px;
+    height: 20px;
+    border-top: 1px solid black;
+    margin-top:20px;
+}
+
+.content{
+    font-size: 15px;
+    font-family:"serif";
+    border: 1px solid black;
+    width:500px;
+    height: 100px;
+}
+
+textarea{
+    border: 1px solid black;
+    width:500px;
+    height: 100px;
+}
+
+.post-index{
+    color: #000000;
+    font-size: 15px;
+    font-family:"serif";
+    border: 1px solid black;
+    width:500px;
+    height: 50px;
+    margin: 10px;
+}
+
+.cereated_at{
+    font-size: 10px;
+    font-family:"serif";
+}

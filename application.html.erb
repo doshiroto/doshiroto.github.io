@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UsoTweetApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <h2 class="header"> <a href="/home/top">USOtwitter</a> </h2>
+
+      <%= yield %>
+
+    
+      <div class="footer-link">
+        <nobr>mc作</nobr>
+        <a href="http://localhost:3000/home/new">新規投稿<a>
+        <a href="http://localhost:3000/home/index">投稿一覧</a>
+      </div>
+  </body>
+</html>
